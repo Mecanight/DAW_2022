@@ -8,7 +8,8 @@ body {
 }
 
 header {
-    padding: 20px 20px 0 20px;/*posições T R B L*/
+    padding: 20px 20px 0 20px;
+    /*posições T R B L*/
 }
 
 header .container {
@@ -35,30 +36,36 @@ header .brand h6 {
     font-weight: 400;
     line-height: 30px;
 }
-header ul{
+
+header ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     gap: 16px;
 }
+
 header ul li {
     font-weight: 300;
     line-height: 30px;
 }
+
 header li a {
     text-decoration: none;
     color: #000;
     padding-bottom: 16px;
 }
+
 header li a:hover,
-header li a.active{
+header li a.active {
     color: #0889d4;
 }
-header li a.active{
+
+header li a.active {
     font-weight: 400;
     border-bottom: 2px solid #0889d4;
 }
-header li button{
+
+header li button {
     background-color: #0889d4;
     color: #fff;
     border: none;
@@ -74,10 +81,12 @@ header li button{
 main {
     margin: 32px 0;
 }
+
 section {
     margin-top: 64px;
 }
-main h2{
+
+main h2 {
     margin: 32px;
     font-weight: 300;
     font-size: 36px;
@@ -85,7 +94,8 @@ main h2{
     text-align: center;
     color: #01528A;
 }
-#banner{
+
+#banner {
     height: 550px;
     border: 1px solid #dcdceb;
     border-radius: 10px;
@@ -94,12 +104,14 @@ main h2{
     background-repeat: no-repeat;
     background-position: right;
 }
-#banner h1{
+
+#banner h1 {
     margin: 60px 0 0 45px;
     font-weight: 300;
     font-size: 62px;
 }
-#banner h3{
+
+#banner h3 {
     margin-top: 16px;
     margin-left: 45px;
     font-weight: 500;
@@ -109,16 +121,18 @@ main h2{
 }
 
 
-#cards{
+#cards {
     margin: 32px 0;
 }
-#cards .cards-content{
+
+#cards .cards-content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#cards .card{
+
+#cards .card {
     width: 530px;
     display: flex;
     flex-direction: row;
@@ -129,16 +143,19 @@ main h2{
     margin-bottom: 48px;
     position: relative;
 }
-#cards .card img{
+
+#cards .card img {
     width: 160px;
     height: 180px;
 }
-cards .card h4{
+
+cards .card h4 {
     font-weight: 400;
     margin-bottom: 12px;
     text-align: justify;
 }
-#cards .card p{
+
+#cards .card p {
     font-size: 300;
     margin-bottom: 12px;
     text-align: justify;
@@ -146,14 +163,16 @@ cards .card h4{
     max-height: 72px;
     overflow: hidden;
 }
-#cards .card .card-price{
+
+#cards .card .card-price {
     position: absolute;
     display: flex;
     justify-content: end;
     right: 20px;
     bottom: 20px;
 }
-#cards .card-price p{
+
+#cards .card-price p {
     background-color: #0889d4;
     color: #fff;
     font-size: 14px;
@@ -164,54 +183,65 @@ cards .card h4{
 #reasons {
     margin-top: 0;
 }
-#reasons .reasons-content{
+
+#reasons .reasons-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 24px;
 }
-#reasons .reasons-content .reason{
+
+#reasons .reasons-content .reason {
     width: 100%;
     border-left: 2px solid #0889d4;
 }
-#reasons .reason:first-of-type{
+
+#reasons .reason:first-of-type {
     border-left: none;
 }
-#reasons .reason p{
+
+#reasons .reason p {
     text-align: center;
 }
-#reasons .reason .reason-value{
+
+#reasons .reason .reason-value {
     font-size: 32px;
     font-weight: 400;
 }
-#reasons .reason .reason-label{
+
+#reasons .reason .reason-label {
     font-size: 24px;
     font-weight: 300;
     color: #8f90a6;
 }
-#specialists .specialists-content{
+
+#specialists .specialists-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 24px;
     margin-bottom: 24px;
 }
-#specialists .specialist{
+
+#specialists .specialist {
     width: 100%;
     border: 1.5px solid #dcdceb;
     border-radius: 16px;
     padding: 20px;
     color: #01528A;
 }
+
 #specialists .specialist h5 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 8px;
 }
+
 #specialists .specialist p {
     font-size: 14px;
     font-weight: 300;
 }
+
 #specialists .specialist-details {
     font-size: 16px;
     font-weight: 300;
@@ -219,30 +249,36 @@ cards .card h4{
     text-align: justify;
     padding-top: 16px;
 }
+
 #values .values-container {
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
+
 #values .values-content {
     display: flex;
     flex-direction: column;
     gap: 24px;
     padding: 24px;
 }
+
 #values .values-content p {
     font-size: 14px;
     font-weight: 300;
     text-align: justify;
 }
+
 #values .value-detail {
     padding: 32px;
 }
+
 #values .value-detail .value {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 #values .value-detail span {
     background-image: url('../img/bullet-values.svg');
     background-repeat: no-repeat;
@@ -251,26 +287,31 @@ cards .card h4{
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
 footer {
     background-color: #0889d4;
     color: #fff;
     margin-top: 48px;
     padding: 48px 0;
 }
+
 footer .container {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
+
 footer .footer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 footer .footer-company {
     width: 450px;
 
 }
+
 footer .footer-company .footer-logo {
     font-size: 24px;
     font-weight: 300;
@@ -282,55 +323,69 @@ footer .footer-company .footer-logo {
     background-size: 32px;
     margin-bottom: 16px;
 }
+
 footer .footer-company p {
     font-weight: 300;
     font-size: 12px;
 }
+
 footer .footer-menu {
     font-weight: 300;
     font-size: 14px;
 }
+
 footer .footer-menu-title {
     font-weight: 400;
     font-size: 16px;
 }
+
 footer .footer-menu ul {
     list-style-type: none;
     margin-top: 16px;
 }
+
 footer .footer-menu li {
     margin-bottom: 8px;
 }
+
 footer .footer-menu a {
     color: #fff;
     text-decoration: none;
 }
+
 footer .footer-menu a:hover {
     text-decoration: underline;
 }
+
 footer .footer-social {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 24px;
 }
+
 footer .footer-social span {
     background-repeat: no-repeat;
     background-position: center;
     padding: 16px;
 }
+
 footer .footer-social .facebook {
-background-image: url('../img/icon-facebook.svg');
+    background-image: url('../img/icon-facebook.svg');
 }
+
 footer .footer-social .instagram {
     background-image: url('../img/icon-instagram.svg');
 }
+
 footer .footer-social .twitter {
     background-image: url('../img/icon-twitter.svg');
 }
+
 footer .footer-social .linkedin {
     background-image: url('../img/icon-linkedin.svg');
 }
+
 footer .footer-copyright {
     text-align: center;
     font-weight: 300;
