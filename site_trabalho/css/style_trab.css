@@ -14,9 +14,7 @@ body {
     margin: auto;
 }
 
-header {
-    border-color: red;
-}
+header {}
 
 header .container {
     display: flex;
@@ -31,3 +29,120 @@ header .marca {
     align-items: center;
     gap: 16px;
 }
+
+header .marca img {}
+
+header .marca h6 {}
+
+header ul {}
+
+header ul li {}
+
+header li a {}
+
+header a:hover,
+header a.active {}
+
+header li a.active {}
+
+header li button {}
+
+main {}
+
+section {}
+
+main h2 {}
+
+#banner {}
+
+#banner h1 {}
+
+#banner h3 {}
+
+#cartoes {}
+
+#cartoes .cartoes-conteudo {}
+
+#cartoes .cartao {}
+
+#cartoes .cartao img {}
+
+#cartoes .cartao h4 {}
+
+#cartoes .cartao p {}
+
+#cartoes .cartao .botao_conectar {}
+
+#cartoes .botao_conectar p {}
+
+#conectados {}
+
+#conectados .conectados-conteudo {}
+
+#conectados .conectados-conteudo .conectado {}
+
+#conectados .conectado:first-of-type {}
+
+#conectados .conectado p {}
+
+#conectados .conectado .valor {}
+
+#conectados .conectado .rotulo {}
+
+#usuarios .usuarios-conteudo {}
+
+#usuarios .usuario {}
+
+#usuarios .usuario h5 {}
+
+#usuarios .usuario p {}
+
+#usuarios .usuario-comentario {}
+
+#valores .valores-conteudo {}
+
+#valores .valores-conteudo p {}
+
+#valores .valor-pontos {}
+
+#valores .valor-pontos .valor {}
+
+#valores .valor-pontos span {}
+
+footer {}
+
+footer .container {}
+
+footer .rodape-conteudo {}
+
+footer .rodape-empresa {}
+
+footer .rodape-empresa .rodape-logo {}
+
+footer .rodape-empresa p {}
+
+footer .rodape-menu {}
+
+footer .rodape-menu-titulo {}
+
+footer .rodape-menu ul {}
+
+footer .rodape-menu li {}
+
+footer .rodape-menu a {}
+
+footer .rodape-menu a:hover {}
+
+footer .rodape-sociais {}
+
+footer .rodape-sociais span {}
+
+footer .rodape-sociais .facebucson {}
+
+footer .rodape-sociais .tuiterano {}
+
+footer .rodape-sociais .instagrama {}
+
+footer .rodape-sociais .linkedinho {}
+
+footer .rodape-direitos {}
