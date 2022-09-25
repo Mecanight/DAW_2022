@@ -2,74 +2,60 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
 }
-
 .container {
-    max-width: 1160;
+    max-width: 1160px;
     margin: 0 auto;
 }
-
-header {
+header { /* T R B L */ 
     padding: 20px 20px 0 20px;
-    /*posições T R B L*/
 }
-
 header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
 header .brand {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 16px;
 }
-
 header .brand img {
     width: 40px;
 }
-
 header .brand h6 {
     font-size: 24px;
     color: #01528A;
     font-weight: 400;
     line-height: 30px;
 }
-
 header ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     gap: 16px;
 }
-
 header ul li {
     font-weight: 300;
     line-height: 30px;
 }
-
 header li a {
     text-decoration: none;
     color: #000;
     padding-bottom: 16px;
 }
-
 header li a:hover,
 header li a.active {
     color: #0889d4;
 }
-
-header li a.active {
+header li a.active {    
     font-weight: 400;
     border-bottom: 2px solid #0889d4;
 }
-
 header li button {
     background-color: #0889d4;
     color: #fff;
@@ -83,40 +69,40 @@ header li button {
     line-height: 20px;
 }
 
+
+
 main {
     margin: 32px 0;
 }
-
-section {
-    margin-top: 64px;
-}
-
 main h2 {
-    margin: 32px;
+    margin: 32px 0;
     font-weight: 300;
     font-size: 36px;
     line-height: 56px;
     text-align: center;
     color: #01528A;
 }
+section {
+    margin-top: 64px
+}
+
 
 #banner {
     position: relative;
     height: 550px;
     border: 1px solid #dcdceb;
+    background: #fff;
     border-radius: 10px;
     color: #01528A;
     background-image: url('../img/background-house.png');
     background-repeat: no-repeat;
     background-position: right;
 }
-
 #banner h1 {
     margin: 60px 0 0 45px;
     font-weight: 300;
     font-size: 62px;
 }
-
 #banner h3 {
     margin-top: 16px;
     margin-left: 45px;
@@ -125,7 +111,6 @@ main h2 {
     line-height: 36px;
     margin-bottom: 32px;
 }
-
 #banner .banner-content {
     position: absolute;
     top: 0;
@@ -134,7 +119,6 @@ main h2 {
     width: 650px;
     background: linear-gradient(270deg, rgba(255, 255, 255, 0), #ffffff 50%);
 }
-
 #banner .banner-filter {
     background-color: #fff;
     border: 1px solid #dcdceb;
@@ -147,21 +131,18 @@ main h2 {
     flex-direction: row;
     align-items: center;
     padding: 20px;
-    box-shadow: 0px 21px 43px rgba(8, 137, 212, 0.1);
+    box-shadow: 0px 21px 43px rgba(8,137,212,0.1);
 }
-
 #banner .filter-fields {
     width: 100%;
     margin-right: 20px;
 }
-
 #banner .filter-fields form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 16px;
+    gap:16px;
 }
-
 #banner .filter-result {
     border-left: 2px solid #0889d4;
     width: 80px;
@@ -170,19 +151,16 @@ main h2 {
     flex-direction: column;
     align-items: center;
 }
-
 #banner .result-label {
     font-size: 12px;
     font-weight: 300;
     color: #989898;
 }
-
 #banner .result-value {
     font-size: 16px;
     font-weight: 400;
     color: #000;
 }
-
 #banner .filter-result button {
     background-color: #0889d4;
     margin-top: 16px;
@@ -193,9 +171,7 @@ main h2 {
     font-size: 12px;
     text-transform: uppercase;
 }
-
 #banner .filter-fields select {
-    display: block;
     width: 100%;
     padding: .375rem 2.25rem .375rem .75rem;
     font-size: 12px;
@@ -211,18 +187,12 @@ main h2 {
     border-radius: .0;
     appearance: none;
 }
-
-#cards {
-    margin: 32px 0;
-}
-
 #cards .cards-content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 #cards .card {
     width: 530px;
     display: flex;
@@ -234,35 +204,31 @@ main h2 {
     margin-bottom: 48px;
     position: relative;
 }
-
 #cards .card img {
     width: 160px;
     height: 180px;
 }
-
-cards .card h4 {
+#cards .card h4 {
     font-weight: 400;
     margin-bottom: 12px;
     text-align: justify;
 }
-
 #cards .card p {
-    font-size: 300;
+    font-weight: 300;
     margin-bottom: 12px;
     text-align: justify;
     color: #8f90a6;
     max-height: 72px;
     overflow: hidden;
 }
-
 #cards .card .card-price {
     position: absolute;
     display: flex;
     justify-content: end;
     right: 20px;
     bottom: 20px;
-}
 
+}
 #cards .card-price p {
     background-color: #0889d4;
     color: #fff;
@@ -274,37 +240,32 @@ cards .card h4 {
 #reasons {
     margin-top: 0;
 }
-
 #reasons .reasons-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 24px;
 }
-
 #reasons .reasons-content .reason {
     width: 100%;
     border-left: 2px solid #0889d4;
 }
-
 #reasons .reason:first-of-type {
     border-left: none;
 }
-
 #reasons .reason p {
     text-align: center;
 }
-
 #reasons .reason .reason-value {
     font-size: 32px;
     font-weight: 400;
 }
-
 #reasons .reason .reason-label {
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 300;    
     color: #8f90a6;
 }
+
 
 #specialists .specialists-content {
     display: flex;
@@ -313,7 +274,6 @@ cards .card h4 {
     gap: 24px;
     margin-bottom: 24px;
 }
-
 #specialists .specialist {
     width: 100%;
     border: 1.5px solid #dcdceb;
@@ -321,19 +281,16 @@ cards .card h4 {
     padding: 20px;
     color: #01528A;
 }
-
 #specialists .specialist h5 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 8px;
 }
-
 #specialists .specialist p {
     font-size: 14px;
     font-weight: 300;
 }
-
-#specialists .specialist-details {
+#specialists .specialist-detail {
     font-size: 16px;
     font-weight: 300;
     color: #000;
@@ -346,30 +303,25 @@ cards .card h4 {
     flex-direction: row;
     gap: 24px;
 }
-
 #values .values-content {
     display: flex;
     flex-direction: column;
     gap: 24px;
     padding: 24px;
 }
-
 #values .values-content p {
     font-size: 14px;
     font-weight: 300;
-    text-align: justify;
+    text-align: justify;    
 }
-
 #values .value-detail {
     padding: 32px;
 }
-
 #values .value-detail .value {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 #values .value-detail span {
     background-image: url('../img/bullet-values.svg');
     background-repeat: no-repeat;
@@ -377,7 +329,12 @@ cards .card h4 {
     padding-left: 24px;
     padding-top: 8px;
     padding-bottom: 8px;
+
+    /* 
+        padding: 8px 0px 8px 24px;
+    */ 
 }
+
 
 footer {
     background-color: #0889d4;
@@ -397,12 +354,9 @@ footer .footer-content {
     flex-direction: row;
     justify-content: space-between;
 }
-
 footer .footer-company {
     width: 450px;
-
 }
-
 footer .footer-company .footer-logo {
     font-size: 24px;
     font-weight: 300;
@@ -414,36 +368,29 @@ footer .footer-company .footer-logo {
     background-size: 32px;
     margin-bottom: 16px;
 }
-
 footer .footer-company p {
     font-weight: 300;
     font-size: 12px;
 }
-
 footer .footer-menu {
     font-weight: 300;
     font-size: 14px;
 }
-
 footer .footer-menu-title {
     font-weight: 400;
     font-size: 16px;
 }
-
 footer .footer-menu ul {
     list-style-type: none;
     margin-top: 16px;
 }
-
 footer .footer-menu li {
     margin-bottom: 8px;
 }
-
 footer .footer-menu a {
     color: #fff;
     text-decoration: none;
 }
-
 footer .footer-menu a:hover {
     text-decoration: underline;
 }
@@ -454,29 +401,23 @@ footer .footer-social {
     justify-content: center;
     padding-top: 24px;
 }
-
 footer .footer-social span {
     background-repeat: no-repeat;
     background-position: center;
     padding: 16px;
 }
-
 footer .footer-social .facebook {
     background-image: url('../img/icon-facebook.svg');
 }
-
 footer .footer-social .instagram {
     background-image: url('../img/icon-instagram.svg');
 }
-
-footer .footer-social .twitter {
-    background-image: url('../img/icon-twitter.svg');
-}
-
 footer .footer-social .linkedin {
     background-image: url('../img/icon-linkedin.svg');
 }
-
+footer .footer-social .twitter {
+    background-image: url('../img/icon-twitter.svg');
+}
 footer .footer-copyright {
     text-align: center;
     font-weight: 300;
