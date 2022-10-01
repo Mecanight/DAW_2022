@@ -11,7 +11,7 @@ body {
     max-width: 1160;
     margin: auto;
 }
-/*  */
+
 header {
     padding: 40px;
     background-color: #0889d4;
@@ -61,13 +61,13 @@ header li a {
 
 header a:hover,
 header a.active {
-    color: #7e5c35;
+    color: #235818;
 }
 
 header li a.active {
     padding: 10px;
     font-weight: 400;
-    border: 2px solid #aa881a;
+    border: 2px solid #235818;
     border-radius: 4px;
 }
 
@@ -86,7 +86,8 @@ header li button {
 }
 
 main {
-    background-color: rgba(41, 46, 68, 45%);
+    background-color: #292e4473;
+    padding: 1px;
 }
 
 main h2 {
@@ -323,6 +324,7 @@ footer .rodape-conteudo {
 
 footer .rodape-empresa {
     width: 450px;
+    max-width: 250px;
 }
 
 footer .rodape-empresa .rodape-logo {
@@ -339,7 +341,7 @@ footer .rodape-empresa .rodape-logo {
 
 footer .rodape-empresa p {
     font-weight: 300;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 footer .rodape-menu {
@@ -355,10 +357,12 @@ footer .rodape-menu-titulo {
 footer .rodape-menu ul {
     list-style-type: none;
     margin-top: 16px;
+    font-size: 16px;
 }
 
 footer .rodape-menu li {
     margin-bottom: 8px;
+    font-size: 16px;
 }
 
 footer .rodape-menu a {
