@@ -5,18 +5,16 @@
 
 body {
     font-family: 'Roboto', 'sans-serif';
-    /* background-image: url('../img/fundo_claro.png');
-    background-repeat: round;
-    background-position: center; */
 }
 
 .container {
     max-width: 1160;
     margin: auto;
 }
-
+/*  */
 header {
-    padding: 20px 20px 0 20px;
+    padding: 40px;
+    background-color: #0889d4;
 }
 
 header .container {
@@ -53,23 +51,24 @@ header ul {
 
 header ul li {
     font-weight: 300;
-    line-height: 30px;
+    line-height: 36px;
 }
 
 header li a {
     text-decoration: none;
     color: #000;
-    padding-bottom: 16px;
 }
 
 header a:hover,
 header a.active {
-    color: #0889d4;
+    color: #7e5c35;
 }
 
 header li a.active {
+    padding: 10px;
     font-weight: 400;
-    border-bottom: 2px solid #0889d4;
+    border: 2px solid #aa881a;
+    border-radius: 4px;
 }
 
 header li button {
@@ -87,11 +86,7 @@ header li button {
 }
 
 main {
-    margin: 32px 0;
-}
-
-section {
-    margin-top: 64px;
+    background-color: rgba(41, 46, 68, 45%);
 }
 
 main h2 {
@@ -104,29 +99,28 @@ main h2 {
 }
 
 #banner {
-    position: relative;
-    height: 550px;
-    border: 1px solid #dcdceb;
-    border-radius: 10px;
-    color: #235818;
+    height: 500px;
     background-image: url('../img/banner.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
+    background-size: cover;
 }
 
 #banner h1 {
-    margin: 60px 0 0 45px;
-    font-weight: 300;
+    color: #756000;
+    padding: 24px;
+    font-weight: 400;
     font-size: 62px;
+    max-width: 300px;
 }
 
 #banner h3 {
-    margin-top: 16px;
-    margin-left: 45px;
+    color: #0c2700;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 36px;
-    margin-bottom: 32px;
+    max-width: 250px;
+    padding: 24px;
 }
 
 #cartoes {
@@ -137,7 +131,7 @@ main h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #cartoes .cartao {
@@ -190,6 +184,7 @@ main h2 {
 
 #conectados {
     margin-top: 0;
+    padding: 32px;
 }
 
 #conectados .conectados-conteudo {
@@ -220,7 +215,11 @@ main h2 {
 #conectados .conectado .rotulo {
     font-size: 24px;
     font-weight: 300;
-    color: #8f90a6;
+    color: #040525;
+}
+
+#usuarios{
+    padding: 32px;
 }
 
 #usuarios .usuarios-conteudo {
@@ -258,10 +257,15 @@ main h2 {
     padding-top: 16px;
 }
 
-#valores .valores-container{
+#valores img{
+    height: 250px;
+}
+
+#valores .valores-container {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    padding: 32px;
 }
 
 #valores .valores-conteudo {
@@ -281,6 +285,7 @@ main h2 {
     padding: 32px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #valores .valor-pontos .valor {
@@ -289,7 +294,7 @@ main h2 {
     justify-content: space-between;
 }
 
-#valores .valor-pontos span{
+#valores .valor-pontos span {
     background-image: url();
     background-repeat: no-repeat;
     background-position-y: center;
@@ -301,8 +306,7 @@ main h2 {
 footer {
     background-color: #1e5474;
     color: #fff;
-    margin-top: 48px;
-    padding: 48px 0;
+    padding: 32px;
 }
 
 footer .container {
@@ -352,6 +356,7 @@ footer .rodape-menu ul {
     list-style-type: none;
     margin-top: 16px;
 }
+
 footer .rodape-menu li {
     margin-bottom: 8px;
 }
@@ -361,18 +366,43 @@ footer .rodape-menu a {
     text-decoration: none;
 }
 
-footer .rodape-menu a:hover {}
+footer .rodape-menu a:hover {
+    text-decoration: underline;
+}
 
-footer .rodape-sociais {}
+footer .rodape-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 24px;
+    gap: 20px;
+}
 
-footer .rodape-sociais span {}
+footer .rodape-sociais span {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 16px;
+    gap: 20px;
+}
 
-footer .rodape-sociais .facebucson {}
+footer .rodape-sociais .facebucson {
+    background-image: url('../img/facebook.svg');
+}
 
-footer .rodape-sociais .tuiterano {}
+footer .rodape-sociais .tuiterano {
+    background-image: url(../img/twitter.svg);
+}
 
-footer .rodape-sociais .instagrama {}
+footer .rodape-sociais .instagrama {
+    background-image: url(../img/instagram.svg);
+}
 
-footer .rodape-sociais .linkedinho {}
+footer .rodape-sociais .linkedinho {
+    background-image: url(../img/linkedin.svg);
+}
 
-footer .rodape-direitos {}
+footer .rodape-direitos {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+}
