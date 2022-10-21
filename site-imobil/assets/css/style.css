@@ -106,6 +106,9 @@ main h2 {
     border: 1px solid #dcdceb;
     border-radius: 10px;
     color: #01528A;
+    background-image: url('../img/background-house.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 #banner h1 {

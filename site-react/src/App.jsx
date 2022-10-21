@@ -2,6 +2,8 @@ import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 import { Routes, Route } from 'react-router-dom'
 import { HomePage } from './pages/Home'
+import './assets/css/normalize.css'
+import './assets/css/global.css'
 
 function App() {
 
@@ -15,7 +17,6 @@ function App() {
           <Route path="*" element={<HomePage/>}/>
         </Routes>
       </main>
-
       <Footer />
     </div>
   )
