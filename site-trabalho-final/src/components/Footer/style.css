@@ -1,0 +1,106 @@
+footer {
+    background-color: #1e5474;
+    color: #fff;
+    padding: 32px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer .rodape-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .rodape-empresa {
+    width: 450px;
+    max-width: 250px;
+}
+
+footer .rodape-empresa .rodape-logo {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-left: 40px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 32px;
+    margin-bottom: 16px;
+}
+
+footer .rodape-empresa p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+footer .rodape-menu {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+footer .rodape-menu-titulo {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer .rodape-menu ul {
+    list-style-type: none;
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+footer .rodape-menu li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+footer .rodape-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .rodape-menu a:hover {
+    text-decoration: underline;
+}
+
+footer .rodape-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 24px;
+    gap: 20px;
+}
+
+footer .rodape-sociais span {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 16px;
+    gap: 20px;
+}
+
+footer .rodape-sociais .facebucson {
+    background-image: url('../img/facebook.svg');
+}
+
+footer .rodape-sociais .tuiterano {
+    background-image: url(../img/twitter.svg);
+}
+
+footer .rodape-sociais .instagrama {
+    background-image: url(../img/instagram.svg);
+}
+
+footer .rodape-sociais .linkedinho {
+    background-image: url(../img/linkedin.svg);
+}
+
+footer .rodape-direitos {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+}

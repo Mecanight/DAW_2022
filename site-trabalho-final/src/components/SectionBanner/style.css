@@ -1,0 +1,24 @@
+#banner {
+    height: 500px;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner h1 {
+    color: #756000;
+    padding: 24px;
+    font-weight: 400;
+    font-size: 62px;
+    max-width: 300px;
+}
+
+#banner h3 {
+    color: #0c2700;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 250px;
+    padding: 24px;
+}

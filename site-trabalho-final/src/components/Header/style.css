@@ -1,0 +1,71 @@
+header {
+    padding: 40px;
+    background-color: #0889d4;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .marca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+header .marca img {
+    width: 40px;
+}
+
+header .marca h6 {
+    font-size: 28px;
+    color: #235818;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 16px;
+}
+
+header ul li {
+    font-weight: 300;
+    line-height: 36px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header a:hover,
+header a.active {
+    color: #235818;
+}
+
+header li a.active {
+    padding: 10px;
+    font-weight: 400;
+    border: 2px solid #235818;
+    border-radius: 4px;
+}
+
+header li button {
+    background-color: #1f174e;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-left: 16px;
+    line-height: 20px;
+}
