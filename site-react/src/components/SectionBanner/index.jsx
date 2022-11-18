@@ -34,6 +34,9 @@ const bairros = [
 
 export function SectionBanner() {
 
+    const {imoveis} = useImovel()
+    const [filter, setFilter] = useState({})
+
     const total = 0;
 
     function handleFilter(){
