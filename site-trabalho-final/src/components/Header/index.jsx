@@ -6,23 +6,31 @@ export function Header() {
     return (
         <header>
             <div className="container">
-                <div className="marca">
-                    <img src={imgLogo} alt="Logo da empresa de IoT">
+                <div className="brand">
+                    <img src={imgLogo} alt="Logo da emprese de IoT"/>
                         <h6>Empresa IoT</h6>
                 </div>
                 <nav>
                     <ul>
                         <li>
-                            <a href="#" className="active">Início</a>
+                            <a href="#" className="active">
+                                Início
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Dispositivos conectados</a>
+                            <a href="#">
+                                Dispositivos conectados
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Adicionar dispositivos</a>
+                            <a href="#">
+                                Adicionar dispositivos
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Contatar suporte</a>
+                            <a href="#">
+                                Contatar suporte
+                            </a>
                         </li>
                         <li>
                             <button>Sair</button>

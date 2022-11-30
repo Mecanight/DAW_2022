@@ -1,0 +1,36 @@
+
+#conectados {
+    margin-top: 0;
+    padding: 32px;
+}
+
+#conectados .conectados-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+#conectados .conectados-conteudo .conectado {
+    width: 100%;
+    border-left: 2px solid #0889d4;
+}
+
+#conectados .conectado:first-of-type {
+    border-left: none;
+}
+
+#conectados .conectado p {
+    text-align: center;
+}
+
+#conectados .conectado .valor {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#conectados .conectado .rotulo {
+    font-size: 24px;
+    font-weight: 300;
+    color: #040525;
+}

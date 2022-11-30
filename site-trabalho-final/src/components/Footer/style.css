@@ -1,3 +1,4 @@
+
 footer {
     background-color: #1e5474;
     color: #fff;
@@ -10,18 +11,18 @@ footer .container {
     gap: 16px;
 }
 
-footer .rodape-conteudo {
+footer .footer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-footer .rodape-empresa {
+footer .footer-empresa {
     width: 450px;
     max-width: 250px;
 }
 
-footer .rodape-empresa .rodape-logo {
+footer .footer-empresa .footer-logo {
     font-size: 24px;
     font-weight: 300;
     line-height: 32px;
@@ -33,42 +34,42 @@ footer .rodape-empresa .rodape-logo {
     margin-bottom: 16px;
 }
 
-footer .rodape-empresa p {
+footer .footer-empresa p {
     font-weight: 300;
     font-size: 16px;
 }
 
-footer .rodape-menu {
+footer .footer-menu {
     font-weight: 300;
     font-size: 12px;
 }
 
-footer .rodape-menu-titulo {
+footer .footer-menu-titulo {
     font-weight: 400;
     font-size: 16px;
 }
 
-footer .rodape-menu ul {
+footer .footer-menu ul {
     list-style-type: none;
     margin-top: 16px;
     font-size: 16px;
 }
 
-footer .rodape-menu li {
+footer .footer-menu li {
     margin-bottom: 8px;
     font-size: 16px;
 }
 
-footer .rodape-menu a {
+footer .footer-menu a {
     color: #fff;
     text-decoration: none;
 }
 
-footer .rodape-menu a:hover {
+footer .footer-menu a:hover {
     text-decoration: underline;
 }
 
-footer .rodape-sociais {
+footer .footer-sociais {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -76,30 +77,30 @@ footer .rodape-sociais {
     gap: 20px;
 }
 
-footer .rodape-sociais span {
+footer .footer-sociais span {
     background-repeat: no-repeat;
     background-position: center;
     padding: 16px;
     gap: 20px;
 }
 
-footer .rodape-sociais .facebucson {
-    background-image: url('../img/facebook.svg');
+footer .footer-sociais .face {
+    background-image: url('../../assets/img/facebook.svg');
 }
 
-footer .rodape-sociais .tuiterano {
-    background-image: url(../img/twitter.svg);
+footer .footer-sociais .twit {
+    background-image: url('../../assets/img/twitter.svg');
 }
 
-footer .rodape-sociais .instagrama {
-    background-image: url(../img/instagram.svg);
+footer .footer-sociais .insta {
+    background-image: url('../../assets/img/instagram.svg');
 }
 
-footer .rodape-sociais .linkedinho {
-    background-image: url(../img/linkedin.svg);
+footer .footer-sociais .linkd {
+    background-image: url('../../assets/img/linkedin.svg');
 }
 
-footer .rodape-direitos {
+footer .footer-direitos {
     text-align: center;
     font-weight: 300;
     font-size: 16px;

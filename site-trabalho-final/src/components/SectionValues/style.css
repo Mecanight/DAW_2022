@@ -1,0 +1,46 @@
+
+#valores img{
+    height: 250px;
+}
+
+#valores .valores-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 32px;
+}
+
+#valores .valores-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+}
+
+#valores .valores-conteudo p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#valores .valor-pontos {
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#valores .valor-pontos .valor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#valores .valor-pontos span {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

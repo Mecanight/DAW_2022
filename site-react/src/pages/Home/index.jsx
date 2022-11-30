@@ -7,19 +7,22 @@ import { ImovelContextProvider } from '../../context/ImovelContext';
 
 export function HomePage() {
   return (
-    <div className="container">
+    <div id="home-page">
+      <div className="container">
+        
+        <ImovelContextProvider>
+          <SectionBanner />
+          <SectionCards />
+        </ImovelContextProvider>
 
-      <ImovelContextProvider>
-        <SectionBanner />
-        <SectionCards />
-      </ImovelContextProvider>
+        <SectionReasons />
 
-      <SectionReasons />
+        <SectionSpecialists />
 
-      <SectionSpecialists />
+        <SectionValues />
 
-      <SectionValues />
-
+      </div>
     </div>
+
   )
 }
