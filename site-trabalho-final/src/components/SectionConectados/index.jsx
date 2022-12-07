@@ -1,27 +1,24 @@
 import './style.css'
 
+const conectados = [
+    { valor: '100.000', rotulo: 'Câmeras de monitoramento' },
+    { valor: '200.000', rotulo: 'Sensores de presença' },
+    { valor: '50.000', rotulo: 'Sensores de gas' },
+    { valor: '300.000', rotulo: 'Atuadores de portão eletrônico' }
+]
+
 export function SectionConectados() {
     return (
         <section id="conectados">
-        <h2>Dispositivos conectados em todo o mundo</h2>
-        <div className="conectados-conteudo">
-            <div className="conectado">
-                <p className="valor">100.000</p>
-                <p className="rotulo">Câmeras de monitoramento</p>
+            <h2>Dispositivos conectados em todo o mundo</h2>
+            <div className="conectados-content">
+                {conectados.map((item, index) => (
+                    <div key={index} className="conectado">
+                        <p className="valor">{item.valor}</p>
+                        <p className="rotulo">{item.rotulo}</p>
+                    </div>
+                ))}
             </div>
-            <div className="conectado">
-                <p className="valor">200.000</p>
-                <p className="rotulo">Sensores de presença</p>
-            </div>
-            <div className="conectado">
-                <p className="valor">50.000</p>
-                <p className="rotulo">Sensores de gas</p>
-            </div>
-            <div className="conectado">
-                <p className="valor">300.000</p>
-                <p className="rotulo">Atuadores de portão eletrônico</p>
-            </div>
-        </div>
-    </section>
+        </section>
     )
 }

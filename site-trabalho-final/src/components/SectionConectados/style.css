@@ -4,14 +4,14 @@
     padding: 32px;
 }
 
-#conectados .conectados-conteudo {
+#conectados .conectados-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 24px;
 }
 
-#conectados .conectados-conteudo .conectado {
+#conectados .conectados-content .conectado {
     width: 100%;
     border-left: 2px solid #0889d4;
 }

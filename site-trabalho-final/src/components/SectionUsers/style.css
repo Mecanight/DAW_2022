@@ -1,9 +1,9 @@
 
-#usuarios{
+#users{
     padding: 32px;
 }
 
-#usuarios .usuarios-conteudo {
+#users .users-conteudo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     margin-bottom: 24px;
 }
 
-#usuarios .usuario {
+#users .user {
     width: 100%;
     border: 1.5px solid #dcdceb;
     border-radius: 16px;
@@ -19,18 +19,18 @@
     color: #01528A;
 }
 
-#usuarios .usuario h5 {
+#users .user h5 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 8px;
 }
 
-#usuarios .usuario p {
+#users .user p {
     font-size: 14px;
     font-weight: 300;
 }
 
-#usuarios .usuario-comentario {
+#users .user-comentario {
     font-size: 16px;
     font-weight: 300;
     color: #000;
