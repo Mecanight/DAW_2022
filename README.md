@@ -1,1 +1,1 @@
-# Repositório da Disciplina Desenvolvimento de Aplicações para WEB  2022
+# Repositório da Disciplina de Desenvolvimento de Aplicações para WEB 2022
